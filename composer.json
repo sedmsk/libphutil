@@ -1,0 +1,23 @@
+{
+    "name": "sd/libphutil",
+    "authors": [
+        {
+            "name": "Igor Finagin",
+            "email": "Igor.Finagin@tatar.ru",
+            "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+            "role": "Developer"
+        }
+    ],
+    "bin": [
+        "bin/aws-s3"
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
